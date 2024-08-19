@@ -5,4 +5,4 @@
 vim.keymap.set('n', '<C-M-Left>', '<C-o>', { noremap = true, silent = true })
 vim.keymap.set('n', '<C-f>', '/', { noremap = true, silent = false })
 vim.keymap.set('n', '<C-M-Right>', '<C-i>', { noremap = true, silent = true })
-
+vim.keymap.set('n', '<C-F>', ':Telescope live_grep<CR>', {noremap=true, silent=true})
